@@ -58,11 +58,11 @@ public class EDModuleMachine extends EDModule {
 			EDLanguage.getInstance().registerItemStack( storage.toItemStack(), storage.unlocalizedName );
 		}
 
-		EDBlocks.blockStructureComponent = new BlockStructure( BlockIDs.BLOCK_STRUCTURE_COMPONENT_ID ).setUnlocalizedName( Strings.BLOCK_STRUCTURE_COMPONENT );
-		GameRegistry.registerBlock( EDBlocks.blockStructureComponent, ItemBlockStructure.class, Strings.BLOCK_STRUCTURE_COMPONENT );
-		for( StructureComponent component : StructureComponent.values() ) {
-			EDLanguage.getInstance().registerItemStack( component.toItemStack(), component.getUnlocalizedName() );
-		}
+//		EDBlocks.blockStructureComponent = new BlockStructure( BlockIDs.BLOCK_STRUCTURE_COMPONENT_ID ).setUnlocalizedName( Strings.BLOCK_STRUCTURE_COMPONENT );
+//		GameRegistry.registerBlock( EDBlocks.blockStructureComponent, ItemBlockStructure.class, Strings.BLOCK_STRUCTURE_COMPONENT );
+//		for( StructureComponent component : StructureComponent.values() ) {
+//			EDLanguage.getInstance().registerItemStack( component.toItemStack(), component.getUnlocalizedName() );
+//		}
 		
 		/* ITEM */
 		EDItems.itemDust = new ItemDust( ItemIDs.ITEM_DUST_ID ).setUnlocalizedName( Strings.ITEM_DUST_NAME );
