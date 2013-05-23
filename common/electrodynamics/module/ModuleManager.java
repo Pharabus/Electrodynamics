@@ -32,7 +32,7 @@ public class ModuleManager {
 	public static void preInit() {
 		registerModule(Module.CORE, new EDModuleCore());
 		registerModule(Module.WORLD, new EDModuleWorld());
-//		registerModule(Module.LOGIC, new EDModuleLogic());
+		registerModule(Module.LOGIC, new EDModuleLogic());
 //		registerModule(Module.LASER, new EDModuleLaser());
 		registerModule(Module.MACHINE, new EDModuleMachine());
 //		registerModule(Module.GAS,  new EDModuleGas());
@@ -179,7 +179,7 @@ public class ModuleManager {
 	public static enum Module {
 		CORE,
 		WORLD,
-//		LOGIC,
+		LOGIC,
 //		LASER,
 		MACHINE,
 //		GAS,
